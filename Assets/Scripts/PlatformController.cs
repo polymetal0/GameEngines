@@ -13,6 +13,7 @@ public class PlatformController : MonoBehaviour
 
     }
 
+    // Emparenta y desemparenta al personaje de la plataforma para que se mueva con ella al subir
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("Player"))

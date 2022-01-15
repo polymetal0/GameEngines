@@ -13,7 +13,10 @@ public class PlayerController : MonoBehaviour
     private Vector2 _movement;
     private bool _isRunning;
     private bool _isInAir;
+    private bool _jump;
     private Animator _anim;
+    public Collider[] feet;
+
     void Start()
     {
         _anim = GetComponent<Animator>();
@@ -31,8 +34,10 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump(InputAction.CallbackContext context)
     {
+        _jump = context.performed;
+        
         _isInAir = true;
-        StartCoroutine(Jump());
+        StartCoroutine(Jump());         
     }
 
     private void Update()
@@ -40,30 +45,30 @@ public class PlayerController : MonoBehaviour
         
         _anim.SetBool("isMoving", _movement.y != 0);
         _anim.SetBool("isRunning", _isRunning);
-        _anim.SetFloat("Speed", _movement.y);// / Math.Abs(_movement.y));
-        _anim.SetFloat("Turn", _movement.x);// / Math.Abs(_movement.x));
-        _anim.SetBool("isInAir", _isInAir);
+        _anim.SetFloat("Speed", _movement.y);
+        _anim.SetFloat("Turn", _movement.x);
+        _anim.SetBool("Jump", _jump);
 
     }
 
     private void FixedUpdate()
     {
         
-        //var playerTransform = transform;
         float running = _isRunning ? runSpeed : speed;
-        //float moving = _anim.GetBool("isMoving") == true ? 1.0f : 0.0f;
-
-
         if (!_isInAir)
         {
-            transform.Rotate(Vector3.up * _movement.x * rotSpeed);// * moving);
+            transform.Rotate(Vector3.up * _movement.x * rotSpeed);
             transform.Translate(Vector3.forward * _movement.y * running);
         }
+
     }
 
     IEnumerator Jump()
     {
-        yield return new WaitForSeconds(2.0f);
+        // la animación del salto dura unos 2.2s
+        yield return new WaitForSeconds(2.2f);
         _isInAir = false;
     }
+
+
 }

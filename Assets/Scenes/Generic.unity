@@ -315,7 +315,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659558999}
-  m_LocalRotation: {x: 0.22603662, y: 0.000000062970734, z: -0.0000000146118655, w: 0.9741188}
+  m_LocalRotation: {x: 0.22603662, y: 0.00000007973179, z: -0.000000018501135, w: 0.9741188}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -621,7 +621,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.20828052, y: 0.000000052224433, z: -0.000000011377125, w: 0.9780691}
+  m_LocalRotation: {x: 0.20828052, y: 0.00000009105679, z: -0.00000001913471, w: 0.9780691}
   m_LocalPosition: {x: 0, y: 2.6, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -728,7 +728,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970311725}
-  m_LocalRotation: {x: 0.20828052, y: 0.00000005282519, z: -0.000000011249161, w: 0.9780691}
+  m_LocalRotation: {x: 0.20828052, y: 0.00000009045604, z: -0.000000019262677, w: 0.9780691}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1045,7 +1045,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748795735}
-  m_LocalRotation: {x: 0.19050264, y: 0.00000006345995, z: -0.000000012314813, w: 0.9816867}
+  m_LocalRotation: {x: 0.19050264, y: 0.00000008035122, z: -0.000000015592674, w: 0.9816867}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1675,6 +1675,18 @@ PrefabInstance:
       propertyPath: rotSpeed
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4269682096904690129, guid: b06a5da17fa9e5b40874bda24487a1bb, type: 3}
+      propertyPath: feet.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269682096904690129, guid: b06a5da17fa9e5b40874bda24487a1bb, type: 3}
+      propertyPath: feet.Array.data[0]
+      value: 
+      objectReference: {fileID: 1733809887}
+    - target: {fileID: 4269682096904690129, guid: b06a5da17fa9e5b40874bda24487a1bb, type: 3}
+      propertyPath: feet.Array.data[1]
+      value: 
+      objectReference: {fileID: 1802639080}
     - target: {fileID: 7426640143716025561, guid: b06a5da17fa9e5b40874bda24487a1bb, type: 3}
       propertyPath: m_NotificationBehavior
       value: 2

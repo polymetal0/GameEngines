@@ -14,7 +14,6 @@ public class HumanoidController : MonoBehaviour
     private bool isJumping;
     private int idleLoop = 0;
     public Collider[] feet;
-    public Transform respawn;
     public Cinemachine.CinemachineVirtualCamera cam;
     private void Start()
     {
@@ -39,17 +38,16 @@ public class HumanoidController : MonoBehaviour
  
     private void Update()
     {
-        float accel = 1f;//, accelDamper = 1f;
+        float accel = 1f;
 
         if (isRunning)
         {
             accel = 3f;
-            //accelDamper = 1f;
         }
 
-        _anim.SetFloat("Horizontal", _movement.x * speed * accel, damper,// * accelDamper, 
+        _anim.SetFloat("Horizontal", _movement.x * speed * accel, damper, 
             Time.deltaTime);
-        _anim.SetFloat("Vertical", _movement.y * speed * accel, damper,// * accelDamper, 
+        _anim.SetFloat("Vertical", _movement.y * speed * accel, damper, 
             Time.deltaTime);
 
        
@@ -77,44 +75,19 @@ public class HumanoidController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // si no hay ningún collider a menos de 0.5m bajo los pies del personaje, está cayendo
+
         RaycastHit hit;
         if (Physics.Raycast(feet[0].transform.position, Vector3.down, out hit, 0.5f) || Physics.Raycast(feet[1].transform.position, Vector3.down, out hit, 0.5f))
         {
-            //float _slopeAngle = (Vector3.Angle(hit.normal, transform.forward) - 90);
-            //Debug.Log("Grounded on " + hit.transform.name);
-            //debug.text += "\nSlope Angle: " + _slopeAngle.ToString("N0") + "°";
             _anim.SetBool("isGrounded", true);
         }
         else
         {
-            //Debug.Log("Not Grounded");
             _anim.SetBool("isGrounded", false);
         }
-
-        if (GetComponent<Rigidbody>().velocity.y < -2.0f && IsFalling())// && !_anim.GetCurrentAnimatorStateInfo(0).IsTag("Jump"))// && !isJumping)// && _anim.GetBool("isInAir"))
-        {
-            _anim.SetBool("isFalling", true);
-        }
-        else
-        {
-            _anim.SetBool("isFalling", false);
-
-        }
     }
 
-    public bool IsFalling()
-    {
-        Collider col = GetComponent<Collider>();
-        if (Physics.BoxCast(feet[0].bounds.center, feet[0].bounds.size, Vector3.down) || Physics.BoxCast(feet[1].bounds.center, feet[1].bounds.size, Vector3.down)) //Physics.BoxCast(col.bounds.center, col.bounds.size, Vector3.down) &&
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-
-        }
-    }
 
     public void Injured()
     {
@@ -126,9 +99,10 @@ public class HumanoidController : MonoBehaviour
     public void Aim()
     {
         float weight = _anim.GetLayerWeight(2);
+        _anim.SetLayerWeight(1, 0);
+        _anim.SetBool("Injured", false);
         _anim.SetLayerWeight(2, 1 - weight);
-        _anim.SetLayerWeight(3, (1 - weight));// *0.65f);
-        _anim.SetLayerWeight(0, 0);
+        _anim.SetLayerWeight(3, (1 - weight));
         _anim.SetBool("Aiming", !_anim.GetBool("Aiming"));
 
         if (_anim.GetBool("Aiming"))
@@ -143,20 +117,21 @@ public class HumanoidController : MonoBehaviour
             cam.GetCinemachineComponent<Cinemachine.Cinemachine3rdPersonFollow>().ShoulderOffset.x = 0.5f;
             cam.GetCinemachineComponent<Cinemachine.Cinemachine3rdPersonFollow>().CameraSide = 0.5f;
         }
-        //cam.GetCinemachineComponent<Cinemachine.CinemachineTransposer>(). = 1.0f;
     }
 
     IEnumerator ChangeIdle()
     {
+        // cada idle dura 5s
         yield return new WaitForSeconds(5);
         idle = false;
         _anim.SetFloat("idleType", Random.Range(1, 3 + 1));
         idleLoop += 5;
+
+        // al llegar a 30s, cambia al cuarto idle
         if (idleLoop >= 30)
         {
             idleLoop = 0;
             _anim.SetBool("Idle", false);
-            //_anim.SetBool("Idle", true);
         }
     }
 
