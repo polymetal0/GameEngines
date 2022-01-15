@@ -1,0 +1,1595 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 32714 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Pablo/Desktop/PROYECTOS/MotoresVideojuegos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62479
+Successfully changed project path to: C:/Users/Pablo/Desktop/PROYECTOS/MotoresVideojuegos
+C:/Users/Pablo/Desktop/PROYECTOS/MotoresVideojuegos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pablo/Desktop/PROYECTOS/MotoresVideojuegos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7284
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001671 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (518ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1021ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.1 MB.
+System memory in use after: 122.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 3.227800 ms (FindLiveObjects: 0.233200 ms CreateObjectMapping: 0.052600 ms MarkObjects: 2.798600 ms  DeleteObjects: 0.141900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/doom eternal slayer.fbx
+  artifactKey: Guid(f79b1fb6eebb4e1478f2b40605a39372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/doom eternal slayer.fbx using Guid(f79b1fb6eebb4e1478f2b40605a39372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe9170107e446eb63853f1494ce6b7f') in 0.287445 seconds 
+  Import took 0.292848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.175832 seconds.
+  path: Assets/Prefabs/doom eternal slayer.fbx
+  artifactKey: Guid(f79b1fb6eebb4e1478f2b40605a39372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/doom eternal slayer.fbx using Guid(f79b1fb6eebb4e1478f2b40605a39372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e501faa91c31bef41206566e0c565a2') in 0.164688 seconds 
+  Import took 0.170340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.625286 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx
+  artifactKey: Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx using Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e090ce2c1638bfc0eecc873e0deac5') in 0.009486 seconds 
+  Import took 0.013419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx
+  artifactKey: Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx using Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2d6291c5e4d392487f5a39e4073c6a') in 0.009592 seconds 
+  Import took 0.013005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn left.fbx
+  artifactKey: Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn left.fbx using Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae168ed89a7ec7f6daf3115e57b81969') in 0.009202 seconds 
+  Import took 0.012746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured idle.fbx
+  artifactKey: Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured idle.fbx using Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135c2f41100f8c747774343524a37467') in 0.008887 seconds 
+  Import took 0.012204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured wave idle.fbx
+  artifactKey: Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured wave idle.fbx using Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9adf0bb8590d315f49fd3df886b7a0') in 0.010267 seconds 
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run left turn.fbx
+  artifactKey: Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run left turn.fbx using Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6efb00c7a2d695e62277e55e86aabe') in 0.009824 seconds 
+  Import took 0.013153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk left turn.fbx
+  artifactKey: Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk left turn.fbx using Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b382b7d8bb7b28d6e723e20cd3dd8b9') in 0.011829 seconds 
+  Import took 0.015331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx
+  artifactKey: Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx using Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08840c20c3886a1d0357e1355d59f4e2') in 0.010615 seconds 
+  Import took 0.014941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run jump.fbx
+  artifactKey: Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run jump.fbx using Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45f6219d471ae063cd4c19843218ac5') in 0.009481 seconds 
+  Import took 0.012923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk.fbx
+  artifactKey: Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk.fbx using Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2d9553825ece46a8a89c63fd97373') in 0.010692 seconds 
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards.fbx
+  artifactKey: Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards.fbx using Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef07dd829f5256ceb4bf0cc5ed089f49') in 0.009967 seconds 
+  Import took 0.013847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run right turn.fbx
+  artifactKey: Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run right turn.fbx using Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5a6bdaf63f075d6bf90b5438e39107') in 0.010101 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk right turn.fbx
+  artifactKey: Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk right turn.fbx using Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4c5d1bb826c21b9082f2ad99edfc94') in 0.010147 seconds 
+  Import took 0.014516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run.fbx
+  artifactKey: Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run.fbx using Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127d5286e742c47172c57a53375e8802') in 0.010618 seconds 
+  Import took 0.014371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk backwards.fbx
+  artifactKey: Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk backwards.fbx using Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1360ed30f0f24fdd16e51975ebbadd3') in 0.011317 seconds 
+  Import took 0.014660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured hurting idle.fbx
+  artifactKey: Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured hurting idle.fbx using Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0763438d5b8949f5cfa241cbbaeb08') in 0.011033 seconds 
+  Import took 0.015342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured stumble idle.fbx
+  artifactKey: Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured stumble idle.fbx using Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71c8aeb59dad4f4ed2f81d4f2098a3e') in 0.010065 seconds 
+  Import took 0.013603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx
+  artifactKey: Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx using Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb69ccedc08006183b848f5ee86e0df8') in 0.009650 seconds 
+  Import took 0.013528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn right.fbx
+  artifactKey: Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn right.fbx using Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60c92e4d88f33debc9e920a78a53801') in 0.009695 seconds 
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured standing jump.fbx
+  artifactKey: Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured standing jump.fbx using Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab29c3864b8ff0de10a2f0d8b8885a7') in 0.010352 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.564932 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack
+  artifactKey: Guid(8e1beda2a93f6b047be93ccda5b2c6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack using Guid(8e1beda2a93f6b047be93ccda5b2c6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b30b231969cf94faefa0b856436864') in 0.007154 seconds 
+  Import took 0.010949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041969 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn left.fbx
+  artifactKey: Guid(0bf3f27a412d4e14e8ec91162a6cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn left.fbx using Guid(0bf3f27a412d4e14e8ec91162a6cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5160c075c9898b41a4197c2a03eb81') in 0.007131 seconds 
+  Import took 0.010921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run jump.fbx
+  artifactKey: Guid(6bbcb1e0353e0ff409536007e08613c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run jump.fbx using Guid(6bbcb1e0353e0ff409536007e08613c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f3735ecab00c8262d8ea69fc436b1c') in 0.007692 seconds 
+  Import took 0.011588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run.fbx
+  artifactKey: Guid(9a1e0970d36984d4f9ac64c180871289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run.fbx using Guid(9a1e0970d36984d4f9ac64c180871289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9f684e3b11f11b23c9782f43cbb9a4') in 0.006864 seconds 
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn right.fbx
+  artifactKey: Guid(43d2353562f0295449226169d2328c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn right.fbx using Guid(43d2353562f0295449226169d2328c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83729059fbe98080b7ba900a5e8ddc21') in 0.007098 seconds 
+  Import took 0.010913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run right turn.fbx
+  artifactKey: Guid(f23cfc92507cb4447907a984d83961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run right turn.fbx using Guid(f23cfc92507cb4447907a984d83961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2419e4d7522319861fdfde2a024ce278') in 0.006073 seconds 
+  Import took 0.009123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured stumble idle.fbx
+  artifactKey: Guid(37b43ff990eab8b49b700af9967de359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured stumble idle.fbx using Guid(37b43ff990eab8b49b700af9967de359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3396dc695cf384ba6574d51e2aa995') in 0.007876 seconds 
+  Import took 0.010938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn left.fbx
+  artifactKey: Guid(2028600aa59b6a34f8ff7f63fa3ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn left.fbx using Guid(2028600aa59b6a34f8ff7f63fa3ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39534a2deee8d16c44b930d61b8c2d62') in 0.007582 seconds 
+  Import took 0.010692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured wave idle.fbx
+  artifactKey: Guid(262b3b3b129ba3943a999a2a88765627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured wave idle.fbx using Guid(262b3b3b129ba3943a999a2a88765627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8906129a5e88cbff9adadd4afa328a') in 0.006470 seconds 
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards left turn.fbx
+  artifactKey: Guid(b7cd648bd2e6cdf42981f954c716a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards left turn.fbx using Guid(b7cd648bd2e6cdf42981f954c716a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c4fd98e802139ec1cdd6d8fc870756') in 0.007679 seconds 
+  Import took 0.011088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured standing jump.fbx
+  artifactKey: Guid(f348c8d0b9772c547b8fb624cadfd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured standing jump.fbx using Guid(f348c8d0b9772c547b8fb624cadfd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962f530af4c8f6fee39ad435a5b45f00') in 0.006434 seconds 
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured hurting idle.fbx
+  artifactKey: Guid(5164d4e4f3aedea42a093a151c32c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured hurting idle.fbx using Guid(5164d4e4f3aedea42a093a151c32c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73b8c2b4e9bfe0aa3b2c336e7c4c6f5') in 0.008170 seconds 
+  Import took 0.012185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk left turn.fbx
+  artifactKey: Guid(fc43a36702b1537448dc1cbb736449ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk left turn.fbx using Guid(fc43a36702b1537448dc1cbb736449ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23051e4b241a2e0b09a4411841fb99') in 0.007348 seconds 
+  Import took 0.011160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk backwards.fbx
+  artifactKey: Guid(6840e744fb3dc434ead701311575edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk backwards.fbx using Guid(6840e744fb3dc434ead701311575edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c0d67be010cbe75e365408756726c1') in 0.006607 seconds 
+  Import took 0.010970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured idle.fbx
+  artifactKey: Guid(9c68ba66bd001c94bb46aac9d42b6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured idle.fbx using Guid(9c68ba66bd001c94bb46aac9d42b6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089571c612c25735376a32791c75835d') in 0.006437 seconds 
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk right turn.fbx
+  artifactKey: Guid(38270b08f2a7fce42a219e755f8f90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk right turn.fbx using Guid(38270b08f2a7fce42a219e755f8f90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82127cbea5547b047545918180f359b7') in 0.006688 seconds 
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn right.fbx
+  artifactKey: Guid(0244386219a0a6e4090843e27a4d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn right.fbx using Guid(0244386219a0a6e4090843e27a4d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a24dd76197ccb308a2c40a72e9420c2') in 0.006151 seconds 
+  Import took 0.009815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards.fbx
+  artifactKey: Guid(d159fd131daff654e94cf560a5b0e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards.fbx using Guid(d159fd131daff654e94cf560a5b0e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e452607cb6eae6b1e6d2f79968525fab') in 0.007076 seconds 
+  Import took 0.010446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run left turn.fbx
+  artifactKey: Guid(978df45d1b9937b43981eed905643dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run left turn.fbx using Guid(978df45d1b9937b43981eed905643dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8286e6a3bc5ba4a9682a9f3e650db2af') in 0.006893 seconds 
+  Import took 0.010590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards right turn.fbx
+  artifactKey: Guid(1d1e8b5b10679d94db8b86b094434cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards right turn.fbx using Guid(1d1e8b5b10679d94db8b86b094434cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93b6857536ab84fa789fe6ebf7ffd4c') in 0.006906 seconds 
+  Import took 0.010669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk.fbx
+  artifactKey: Guid(c97a3ebc0849f3349a9acd3c9b505572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk.fbx using Guid(c97a3ebc0849f3349a9acd3c9b505572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b24850e103df3f1cbf25544180d47d4') in 0.006447 seconds 
+  Import took 0.009986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.384097 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn left.fbx
+  artifactKey: Guid(0bf3f27a412d4e14e8ec91162a6cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn left.fbx using Guid(0bf3f27a412d4e14e8ec91162a6cabfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642cae7a1508b6d18fcbdc964185432') in 0.007366 seconds 
+  Import took 0.011699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run jump.fbx
+  artifactKey: Guid(6bbcb1e0353e0ff409536007e08613c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run jump.fbx using Guid(6bbcb1e0353e0ff409536007e08613c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a51bafe3674f5f421ce337f275c364') in 0.005715 seconds 
+  Import took 0.008599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run.fbx
+  artifactKey: Guid(9a1e0970d36984d4f9ac64c180871289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run.fbx using Guid(9a1e0970d36984d4f9ac64c180871289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd377019e1324d30274af27bd1de3c77a') in 0.005729 seconds 
+  Import took 0.008934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn right.fbx
+  artifactKey: Guid(43d2353562f0295449226169d2328c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn right.fbx using Guid(43d2353562f0295449226169d2328c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1b1ae4265c10b04b000ef286d19da2') in 0.007329 seconds 
+  Import took 0.010986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run right turn.fbx
+  artifactKey: Guid(f23cfc92507cb4447907a984d83961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run right turn.fbx using Guid(f23cfc92507cb4447907a984d83961bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d3dc639d943f55f73865c540834b3b') in 0.005812 seconds 
+  Import took 0.009139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured stumble idle.fbx
+  artifactKey: Guid(37b43ff990eab8b49b700af9967de359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured stumble idle.fbx using Guid(37b43ff990eab8b49b700af9967de359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4557e450b4f0a1a18e1939003444e6') in 0.005759 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn left.fbx
+  artifactKey: Guid(2028600aa59b6a34f8ff7f63fa3ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured turn left.fbx using Guid(2028600aa59b6a34f8ff7f63fa3ba871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed00e835dee37341367488434e5ff797') in 0.006135 seconds 
+  Import took 0.009384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured wave idle.fbx
+  artifactKey: Guid(262b3b3b129ba3943a999a2a88765627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured wave idle.fbx using Guid(262b3b3b129ba3943a999a2a88765627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea418be7b9c90fa359781b256a1be2a') in 0.006624 seconds 
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards left turn.fbx
+  artifactKey: Guid(b7cd648bd2e6cdf42981f954c716a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards left turn.fbx using Guid(b7cd648bd2e6cdf42981f954c716a501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80071eef3fdf6273fb2e525386c36a9') in 0.006027 seconds 
+  Import took 0.009710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured standing jump.fbx
+  artifactKey: Guid(f348c8d0b9772c547b8fb624cadfd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured standing jump.fbx using Guid(f348c8d0b9772c547b8fb624cadfd6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07058b3d302470bee0a0ac619c9c7c25') in 0.005651 seconds 
+  Import took 0.009350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured hurting idle.fbx
+  artifactKey: Guid(5164d4e4f3aedea42a093a151c32c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured hurting idle.fbx using Guid(5164d4e4f3aedea42a093a151c32c77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13696e2a47e95e105423470d8a13d32') in 0.005990 seconds 
+  Import took 0.009395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk left turn.fbx
+  artifactKey: Guid(fc43a36702b1537448dc1cbb736449ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk left turn.fbx using Guid(fc43a36702b1537448dc1cbb736449ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cb1d8446b95c51ef173a6a57a2ee02') in 0.006888 seconds 
+  Import took 0.010373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk backwards.fbx
+  artifactKey: Guid(6840e744fb3dc434ead701311575edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk backwards.fbx using Guid(6840e744fb3dc434ead701311575edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a03bcf9f2cf6b55514dc0ec13053c0') in 0.007073 seconds 
+  Import took 0.010562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured idle.fbx
+  artifactKey: Guid(9c68ba66bd001c94bb46aac9d42b6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured idle.fbx using Guid(9c68ba66bd001c94bb46aac9d42b6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039cd863ef310b9fcd24682823502d80') in 0.007718 seconds 
+  Import took 0.011782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk right turn.fbx
+  artifactKey: Guid(38270b08f2a7fce42a219e755f8f90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk right turn.fbx using Guid(38270b08f2a7fce42a219e755f8f90d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e59b352e25a7044a7db7a49217fa0c') in 0.007399 seconds 
+  Import took 0.011244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn right.fbx
+  artifactKey: Guid(0244386219a0a6e4090843e27a4d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured backwards turn right.fbx using Guid(0244386219a0a6e4090843e27a4d99a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288ddc882614038491b3dd0d45019477') in 0.006762 seconds 
+  Import took 0.010701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards.fbx
+  artifactKey: Guid(d159fd131daff654e94cf560a5b0e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards.fbx using Guid(d159fd131daff654e94cf560a5b0e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c66f73f5b32d22217d8dceeeecaf7bc') in 0.006885 seconds 
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run left turn.fbx
+  artifactKey: Guid(978df45d1b9937b43981eed905643dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run left turn.fbx using Guid(978df45d1b9937b43981eed905643dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5750c1efd2a9c0c30154a6e37f41d784') in 0.006642 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards right turn.fbx
+  artifactKey: Guid(1d1e8b5b10679d94db8b86b094434cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured run backwards right turn.fbx using Guid(1d1e8b5b10679d94db8b86b094434cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd707da64d7d7b40a073f456c01db4fe5') in 0.006677 seconds 
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk.fbx
+  artifactKey: Guid(c97a3ebc0849f3349a9acd3c9b505572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/Male Injured Pack/injured walk.fbx using Guid(c97a3ebc0849f3349a9acd3c9b505572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44d9ee76368debf9652d742eddefe78') in 0.007693 seconds 
+  Import took 0.011505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.526612 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus
+  artifactKey: Guid(eac9b172dfc4bcf42be63e318882b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus using Guid(eac9b172dfc4bcf42be63e318882b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce06bfc7cc5ea55a06f0885119c65b3') in 0.005734 seconds 
+  Import took 0.009406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126049 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/DarkSamus.fbx
+  artifactKey: Guid(08f2bad169086f349aa77fc9c97742c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/DarkSamus.fbx using Guid(08f2bad169086f349aa77fc9c97742c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dc1fd3b6725bc1e5208f89dc80813e') in 0.054136 seconds 
+  Import took 0.058062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx
+  artifactKey: Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx using Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8652dc938fbd9a242633fc0329a3bd') in 0.006420 seconds 
+  Import took 0.009691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx
+  artifactKey: Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx using Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22305f83c3f78aab13c4d09de0bb47d1') in 0.006518 seconds 
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx
+  artifactKey: Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx using Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b05f46b98fe3ab1f3b0d2ce461685') in 0.006636 seconds 
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx
+  artifactKey: Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx using Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad98bf30212beec80515679c8c90a376') in 0.007356 seconds 
+  Import took 0.010997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx
+  artifactKey: Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx using Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863b4b8d6ed994894c1f21b5461d7681') in 0.007137 seconds 
+  Import took 0.010711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx
+  artifactKey: Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx using Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e1319f62d4cb1eed2c9dea5d3a1cc5') in 0.007526 seconds 
+  Import took 0.010793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx
+  artifactKey: Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx using Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ce76b14362c648c5ced39859d8cf66') in 0.006766 seconds 
+  Import took 0.010624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx
+  artifactKey: Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx using Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27d28ee9256ba682775688269cd9d52') in 0.006679 seconds 
+  Import took 0.010024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx
+  artifactKey: Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx using Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7245a7e39994f478493d3810e57405') in 0.006062 seconds 
+  Import took 0.009463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx
+  artifactKey: Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx using Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d7efdb3b56972da3cffdc215657202') in 0.006744 seconds 
+  Import took 0.010881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx
+  artifactKey: Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx using Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b6210219188ff1f808dcba869ce8fb') in 0.007312 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx
+  artifactKey: Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx using Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d51da674eaa25635aa681d4a326362') in 0.005724 seconds 
+  Import took 0.009109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx
+  artifactKey: Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx using Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac492755df3e88403716bb5081573f24') in 0.006527 seconds 
+  Import took 0.010239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx
+  artifactKey: Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx using Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65695c08284f58c94fd5b37d968bdf3e') in 0.006088 seconds 
+  Import took 0.009697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx
+  artifactKey: Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx using Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6e088389c24fbfe8ee998e06fa9436') in 0.009826 seconds 
+  Import took 0.013625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx
+  artifactKey: Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx using Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccf170d4797e5d608295a059afda1eb') in 0.006348 seconds 
+  Import took 0.010280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx
+  artifactKey: Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx using Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069d70e45d9bdca35657ae5b227d5fc') in 0.006491 seconds 
+  Import took 0.009852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx
+  artifactKey: Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx using Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dd377e60355b84923d319dae86f53b') in 0.006939 seconds 
+  Import took 0.010524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx
+  artifactKey: Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx using Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1306bdb6ddecfc0b94d3ee6f88f1d858') in 0.006375 seconds 
+  Import took 0.009841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx
+  artifactKey: Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx using Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71a0c4a146228f143ff2b5d5a516ab') in 0.006343 seconds 
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.003681 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx
+  artifactKey: Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx using Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d09d9e56b2991f59c8890175a90528a') in 0.007411 seconds 
+  Import took 0.011478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx
+  artifactKey: Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx using Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50a6cfd1f2860c72e12ce2cc1443665') in 0.006646 seconds 
+  Import took 0.010706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx
+  artifactKey: Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx using Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6d5062a3e204b021ce8a023e77b239') in 0.006550 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx
+  artifactKey: Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx using Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fa0a3e584727091a831c66c6d329cf') in 0.006798 seconds 
+  Import took 0.010373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx
+  artifactKey: Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx using Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3e8eae30b8ad8fa7d5ef2cd5ac4fd') in 0.006495 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx
+  artifactKey: Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx using Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1474f00b9cd3a54fe1e28f1962a6cd6') in 0.007489 seconds 
+  Import took 0.011381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx
+  artifactKey: Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx using Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd6cede7b74cb39cba7977dd454e757') in 0.007254 seconds 
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx
+  artifactKey: Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx using Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748ef8efe2ff0bc85033b9525f32e273') in 0.006183 seconds 
+  Import took 0.009691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx
+  artifactKey: Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx using Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d22f54699b0d09c46fa5889c9cb1483') in 0.007189 seconds 
+  Import took 0.011420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx
+  artifactKey: Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx using Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd715409e798bd478399216fa9c120b8') in 0.005736 seconds 
+  Import took 0.009120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx
+  artifactKey: Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx using Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1939d76356c2dda998771ed474ee439') in 0.005964 seconds 
+  Import took 0.009233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx
+  artifactKey: Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx using Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed31b826a97f730bfe67555eeb7ed0') in 0.007586 seconds 
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx
+  artifactKey: Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx using Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72596a78b3c11e37d076e02723ff43b9') in 0.007189 seconds 
+  Import took 0.010961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx
+  artifactKey: Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx using Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead9b25d632e6791addfce16928560e0') in 0.006750 seconds 
+  Import took 0.010482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx
+  artifactKey: Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx using Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00713f06f0cd5b49786d9264511151bc') in 0.006363 seconds 
+  Import took 0.009845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx
+  artifactKey: Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx using Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1535acec33431a186a94eec4dd18e8f3') in 0.006608 seconds 
+  Import took 0.010503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx
+  artifactKey: Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx using Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d97a79edd5a9789aef45c169390e31') in 0.006461 seconds 
+  Import took 0.010339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx
+  artifactKey: Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx using Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2ae01fa07892840e05e8c00ba474c8') in 0.006344 seconds 
+  Import took 0.009676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx
+  artifactKey: Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx using Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f0a1d760e6da0e635f219b49e1cf1e') in 0.006373 seconds 
+  Import took 0.009645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx
+  artifactKey: Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx using Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ead83efe6640e63840d73128ff877') in 0.007251 seconds 
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.272715 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx
+  artifactKey: Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn left.fbx using Guid(19d12088ad5fc5740917169cd84d331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eceec2812cb8c2a45f5f980e694b30') in 0.007790 seconds 
+  Import took 0.011883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx
+  artifactKey: Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured backwards turn right.fbx using Guid(ea80b6f652f2bc848bcef3efd3c94a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7a43f71a8657564bf31fe0076d1a2b') in 0.006749 seconds 
+  Import took 0.010247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx
+  artifactKey: Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards right turn.fbx using Guid(13ae51313e2707c48a8a32b9ef7fb6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626fc4b033da240bf64aff0201bedcd8') in 0.006023 seconds 
+  Import took 0.009092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx
+  artifactKey: Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards.fbx using Guid(3393a85e698792541ad2c6283c541835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616cdfd7e48b94de173ec9954476163e') in 0.006529 seconds 
+  Import took 0.011252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx
+  artifactKey: Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk.fbx using Guid(251a86b8494ba7c44897c31b806c4afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406b3fc88378caf93a74b91ad3ac393a') in 0.008495 seconds 
+  Import took 0.012794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx
+  artifactKey: Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run left turn.fbx using Guid(6359824a3637761428d6d32c870af7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593ea80468f80cca18c6c83b1b9786ce') in 0.008045 seconds 
+  Import took 0.011970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx
+  artifactKey: Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured wave idle.fbx using Guid(a840763d38f095546b3aeb7b8d5fdd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e293c86cdbd35cbbc3b0fc1b9545a79a') in 0.006891 seconds 
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx
+  artifactKey: Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured stumble idle.fbx using Guid(669d2c3e9bef19044a01a635df29361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8ebac0dbb392e9d2b75e34d8dad968') in 0.006677 seconds 
+  Import took 0.009804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx
+  artifactKey: Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk backwards.fbx using Guid(7de632dcaf4365841a5c64d8d1ff3d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a80c27dd8ee496c414f368e2d5ca88e') in 0.005826 seconds 
+  Import took 0.008762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx
+  artifactKey: Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run jump.fbx using Guid(21197705be39f2e4d9be7678c7dcc498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c45afef67e4b86a29bead24c8ce77f') in 0.006294 seconds 
+  Import took 0.009503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx
+  artifactKey: Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured standing jump.fbx using Guid(ae2ab473ef11bee4d8e2c42f844c9f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf265ab8145eec49df3c25d2af80caf0') in 0.005818 seconds 
+  Import took 0.009108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx
+  artifactKey: Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run backwards left turn.fbx using Guid(46dc4eb9b76124f488a26f5616498341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144cb44ca5f7d32764fa9e7b89b8df82') in 0.007661 seconds 
+  Import took 0.011462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx
+  artifactKey: Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk left turn.fbx using Guid(f5f2d771474543d4a8ebd52ee1560b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055362f7dcdf7f421474fa59501df374') in 0.007307 seconds 
+  Import took 0.010971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx
+  artifactKey: Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run.fbx using Guid(068c3e73455339f49a92762d824398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ebeb9e3f54ff1aa3008fe15999b518') in 0.007973 seconds 
+  Import took 0.012179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx
+  artifactKey: Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn right.fbx using Guid(46dc394d49e585a458203bd09a33f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8c400dfe792a623505d3954ad23cc7') in 0.006993 seconds 
+  Import took 0.011187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx
+  artifactKey: Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured idle.fbx using Guid(6ba5cf605b3632145a7a481a8c846be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef00deb7aa7e3057d06ab1a9981d4a') in 0.007688 seconds 
+  Import took 0.012037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx
+  artifactKey: Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured walk right turn.fbx using Guid(98067f8bae0fea54abb0d26543ed2d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754539c6373e3e55bb40211ef4cdcdb0') in 0.007563 seconds 
+  Import took 0.011433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx
+  artifactKey: Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured hurting idle.fbx using Guid(b5e5728269bf6e3429f7383b573721a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42029c6c9e8ed8ca9ec6f03c0b462f5') in 0.007687 seconds 
+  Import took 0.011537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx
+  artifactKey: Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured run right turn.fbx using Guid(4eb9fe4b116de17449622d02cd7d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd99d1102c633c1cd1c58c1d5a5a143') in 0.006325 seconds 
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx
+  artifactKey: Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/DarkSamus/injured turn left.fbx using Guid(88a2d60e9c95838419f849f3cf11d4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53dba5bdbb0ebc78d7c8b3c277055b0') in 0.006636 seconds 
+  Import took 0.010102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.385044 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx
+  artifactKey: Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx using Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272505ac9eefcf8375755f37d8f3b9f9') in 0.006280 seconds 
+  Import took 0.010022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084505 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx
+  artifactKey: Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx using Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14c6f6d5d2b355bcdbcfad70c2e3c0b') in 0.007235 seconds 
+  Import took 0.011502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx
+  artifactKey: Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx using Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07baaba5c9e35ae6c0ff45ef335bd178') in 0.006596 seconds 
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn left.fbx
+  artifactKey: Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn left.fbx using Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b1c85dc632d05615b251d4cf689fd') in 0.006892 seconds 
+  Import took 0.010830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured idle.fbx
+  artifactKey: Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured idle.fbx using Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b80348778723cb8a1966becf128658d') in 0.008177 seconds 
+  Import took 0.012200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured wave idle.fbx
+  artifactKey: Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured wave idle.fbx using Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e894e9a59521f2f1bbedf21869ba11b') in 0.007258 seconds 
+  Import took 0.010974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run left turn.fbx
+  artifactKey: Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run left turn.fbx using Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f865f1ab983068c2a724fb97c81cc') in 0.006624 seconds 
+  Import took 0.010104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk left turn.fbx
+  artifactKey: Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk left turn.fbx using Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03131a44817e7614123ce6e1c2a1bea7') in 0.007336 seconds 
+  Import took 0.011553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run jump.fbx
+  artifactKey: Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run jump.fbx using Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1780c29928339e95b79398f84ca2ea') in 0.006947 seconds 
+  Import took 0.011326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk.fbx
+  artifactKey: Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk.fbx using Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1976744ff15349207f4d433d5832253') in 0.006125 seconds 
+  Import took 0.009564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards.fbx
+  artifactKey: Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards.fbx using Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653fe54a7247db53cbd32fd93780723e') in 0.006401 seconds 
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run right turn.fbx
+  artifactKey: Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run right turn.fbx using Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf5a782de2b5d3a30ba340bb62552fb') in 0.007310 seconds 
+  Import took 0.011523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk right turn.fbx
+  artifactKey: Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk right turn.fbx using Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ad4edf85f84dc26c2501f700e8eed') in 0.007156 seconds 
+  Import took 0.010725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run.fbx
+  artifactKey: Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run.fbx using Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4295fb53b3cb19025428dd0bf311bf') in 0.006893 seconds 
+  Import took 0.010880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk backwards.fbx
+  artifactKey: Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk backwards.fbx using Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2256be1318f02a0d0bf726cdc98a6f') in 0.006710 seconds 
+  Import took 0.010186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured hurting idle.fbx
+  artifactKey: Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured hurting idle.fbx using Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2419ecf10022681fd1813cfc47ccebf7') in 0.006113 seconds 
+  Import took 0.009635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured stumble idle.fbx
+  artifactKey: Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured stumble idle.fbx using Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f9b85771c22bdb8045ebd29e6c02d6') in 0.005916 seconds 
+  Import took 0.009359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx
+  artifactKey: Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx using Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8822feabbf946eb1b5a54d9b1453b5d3') in 0.006926 seconds 
+  Import took 0.010378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn right.fbx
+  artifactKey: Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn right.fbx using Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017908b8a30efab99f8745083c4aed71') in 0.006103 seconds 
+  Import took 0.009475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured standing jump.fbx
+  artifactKey: Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured standing jump.fbx using Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac110bc1a183bba3aa876a9b4a26987') in 0.006626 seconds 
+  Import took 0.010295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.941932 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx
+  artifactKey: Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx using Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacab0df54cb715cf1345fa8e1fb46d4') in 0.006424 seconds 
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.199581 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx
+  artifactKey: Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn left.fbx using Guid(0220af18f48ab774181a93b7dcbb0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84d2c4371c30de2fb4adcaf1db778aa') in 0.007867 seconds 
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.969582 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx
+  artifactKey: Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured backwards turn right.fbx using Guid(fd7522a67befe084aabdc3e5a4710235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a296966a567c8ea0fc22f5496cd52214') in 0.007214 seconds 
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx
+  artifactKey: Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards left turn.fbx using Guid(b267b0b2811d5684f9b438a1143ba281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431adeb942fca6f0f2b1486cc0d210e9') in 0.007801 seconds 
+  Import took 0.011024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn left.fbx
+  artifactKey: Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn left.fbx using Guid(0bfa440a98556c04a894198842dcf69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a077efad790f813d69ef89dd08071153') in 0.007751 seconds 
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured idle.fbx
+  artifactKey: Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured idle.fbx using Guid(c7eb03b5d3830d945a231adec9364ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813db67c30aa78d3bfd54f379b18cd54') in 0.008148 seconds 
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured wave idle.fbx
+  artifactKey: Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured wave idle.fbx using Guid(acdc5d6d7a1468942ae546c88ab5c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc81c3f3318a684779fedc049279976') in 0.007454 seconds 
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run left turn.fbx
+  artifactKey: Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run left turn.fbx using Guid(ab91db0e7d4c23a4fa39593c77837fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4317d9504306350a6c4341244a9bb0f') in 0.007085 seconds 
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk left turn.fbx
+  artifactKey: Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk left turn.fbx using Guid(d991788ef2353e441846735da6c7fe89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2689adc03b7aeb1a6b2ff39e09a6f10') in 0.007642 seconds 
+  Import took 0.012230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run jump.fbx
+  artifactKey: Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run jump.fbx using Guid(1ef0beb18810e4e478bcbb89fde2c082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef58241604a202c7916485834e457f33') in 0.007039 seconds 
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk.fbx
+  artifactKey: Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk.fbx using Guid(893ef49791d88d24ab4d76321f58d375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec37918f8aa428629b0d86fc65b23e') in 0.006460 seconds 
+  Import took 0.009502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards.fbx
+  artifactKey: Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards.fbx using Guid(24e3b499e91ba2a48908eef64b35589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64fe2e00ef3d97a54b5d12e130302e8') in 0.007852 seconds 
+  Import took 0.010999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run right turn.fbx
+  artifactKey: Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run right turn.fbx using Guid(bfc5836e6affdde4f8e1b61650ae8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb9e11a141e61a16536504afb50caa') in 0.006999 seconds 
+  Import took 0.010207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk right turn.fbx
+  artifactKey: Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk right turn.fbx using Guid(766532881a4c4d14280642426b1c6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4369a49345db71f2f62920a0ca1dd6') in 0.007552 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run.fbx
+  artifactKey: Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run.fbx using Guid(d3e51eb62b7686b459fd0c5dce05f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20f6f357a3924cfdf1f7d18b6931cea') in 0.007977 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured walk backwards.fbx
+  artifactKey: Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured walk backwards.fbx using Guid(8ca938cd7f0aa1145a1fdcff071f6619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef06e571d2be98c1c587f3795abeeaf3') in 0.008109 seconds 
+  Import took 0.011789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured hurting idle.fbx
+  artifactKey: Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured hurting idle.fbx using Guid(7b8158f47cb6e1e499cf07a9be60af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720003d99a01d55f08aedf3559ab26b3') in 0.007898 seconds 
+  Import took 0.011847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured stumble idle.fbx
+  artifactKey: Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured stumble idle.fbx using Guid(181892f7f555d954aa05a27dfa9000ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9973e97697d1f4b8146913d2bc5c7538') in 0.007245 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx
+  artifactKey: Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured run backwards right turn.fbx using Guid(72d5a0463a8149143a790344c73f4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9880e5ed248c5534da53b452c505fc80') in 0.007864 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured turn right.fbx
+  artifactKey: Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured turn right.fbx using Guid(bb1eec9db26c4d3409000bcaee99f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daca7a98b1daf5f5d44e9eab4fa8198') in 0.006363 seconds 
+  Import took 0.009532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Animations/Humanoid/Injured/injured standing jump.fbx
+  artifactKey: Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Humanoid/Injured/injured standing jump.fbx using Guid(d3f48f6f5dc79d74d9b34985b261523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a514223fa1033ed07df1e7ec7d0f6a92') in 0.008007 seconds 
+  Import took 0.011974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7627.781171 seconds.
+  path: Assets/Prefabs/Basura/SamusDread1.fbx
+  artifactKey: Guid(26a21d34253fc3b4294b1beb5aca36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Basura/SamusDread1.fbx using Guid(26a21d34253fc3b4294b1beb5aca36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee1867f7d2483e57246ee132d22b13a') in 0.730400 seconds 
+  Import took 0.739057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.689902 seconds.
+  path: Assets/Prefabs/Basura/SamusDread1.fbx
+  artifactKey: Guid(26a21d34253fc3b4294b1beb5aca36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Basura/SamusDread1.fbx using Guid(26a21d34253fc3b4294b1beb5aca36dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b57448753bec88633ed245c3d3e9eb0') in 0.687086 seconds 
+  Import took 0.693561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.235126 seconds.
+  path: Assets/Scenes/Level.unity
+  artifactKey: Guid(a4f0b3cd9ff85054f966e6e4cc162454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level.unity using Guid(a4f0b3cd9ff85054f966e6e4cc162454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1718fba6864e0fc0de8ba608b1e91903') in 0.008605 seconds 
+  Import took 0.012331 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2648.
+Total: 3.074100 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.730100 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2057 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 3.019800 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.055700 ms MarkObjects: 2.735100 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
